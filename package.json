@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "tsc -w",
-    "dev-test": "jest --clearCache && jest --watchAll --runInBand --detectOpenHandles --no-cache ",
+    "test": "jest --clearCache && jest --runInBand --detectOpenHandles --no-cache ",
+    "test-dev": "jest --clearCache && jest --watchAll --runInBand --detectOpenHandles --no-cache ",
     "build": "tsc"
   },
   "dependencies": {
